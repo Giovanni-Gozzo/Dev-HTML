@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+html{
+    scroll-behavior: smooth;
+    margin: 0%;
+    width: 100%;
+}
+body{
+    font-family: 'Lucida Sans Unicode', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    text-align: center;
+}
+/* ############################################## */
+/* #                  HEADER                    # */
+/* ############################################## */
+.base{
+    text-align: center;
+}
+
+a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.imgback img{
+    display: flex;
+    width: 100%;
+}
+
+header{
+    background-color:black;
+    position: absolute;
+    padding: 2% 2%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav div{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+nav>div>a{
+    padding:0 10px 0 10px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-radius: 5px;
+}
+nav>div>a:hover{
+    transform: scale(1.2);
+}
+nav div .sous{
+    display: none;
+    position: absolute;
+    left: 12%;
+    padding: 2%;
+    background-color:black;
+    border-radius: 25px;
+}
+.soussous{
+    display: none;
+    position: absolute;
+    left: 70%;
+    top: 0%;
+    padding: 2%;
+    padding-right: 30%;
+    background-color:black;
+    border-radius: 25px;
+}
+.soussous2{
+    display: none;
+    position: absolute;
+    left: 70%;
+    top: 35%;
+    padding: 2%;
+    padding-right: 30%;
+    background-color:black;
+    border-radius: 25px;
+}
+nav div .sous2{
+    display: none;
+    position: absolute;
+    left: 35%;
+    padding: 2%;
+    background-color:black;
+    border-radius: 25px;
+}
+.sous div a{
+    margin: 10%;
+}
+.sous2 div a{
+    margin: 10%;
+}
+.soussous div a{
+    margin: 10%;
+}
+.soussous2 div a{
+    margin: 10%;
+}
+.sous div{
+    margin: 5%;
+}
+.sous2 div{
+    margin: 5%;
+}
+.soussous div{
+    margin: 5%;
+}
+.sousous2 div{
+    margin: 5%;
+}
+nav div:hover .sous{
+    display: block;
+}
+nav div:hover .sous2{
+    display: block;
+}
+.sousprem:hover .soussous{
+    display: flex;
+    flex-direction: row;
+}
+.sousdeux:hover .soussous2{
+    display: flex;
+    flex-direction: row;
+}
+.sticky {
+    position: sticky;
+    will-change: transform;
+}
+.sticky--top {
+    top: 0;
+}
+.cta{
+    margin-left: 19px;
+    padding: 9px 25px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+/* ############################################## */
+/* #                  MAIN                      # */
+/* ############################################## */
+main{
+    margin-top: 3%;
+}
+main h1{
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em skyblue, 0 0 0.2em dodgerblue;
+}
+main .imgintro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+main img{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h2{
+    text-align: center;
+}
+main .intro{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 200%;
+    margin-left: 5%;
+}
+main p{
+    margin: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.plan{
+    text-align: center;
+    margin-left: 0%;!important;
+}
+.planp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.premierep{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.remonté{
+     display: flex;
+     bottom: 5%;
+     position: fixed;
+ }
+.accéder{
+    display: flex;
+    text-align: left;
+    justify-content: right ;
+    margin-left: 82%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+.backintro{
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.backintro h1{
+    padding-top: 2%;
+}
+.backintro .liason{
+    padding-bottom: 2%;
+}
+.intro{
+    padding-top: 3%;
+}
+.introbas{
+    padding-bottom: 3%;
+}
+.left{
+    text-align: left;
+}
+.left h2{
+    text-align: left;
+    margin-left: 5%;
+    margin-top:3%;
+}
+.case{
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.flex div{
+    margin-left: 2%;
+}
+
+/* ############################################## */
+/* #                  FOOTER                    # */
+/* ############################################## */
+footer{
+    font-weight: bold;
+    padding: 1%;
+    color: white;
+    background-color: black;
+}
+footer p{
+    padding-right: 20%;
+    padding-left: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+footer p a{
+    text-decoration: none;
+    color: white;
+}
+footer div{
+    padding-bottom: 0.3%;
+    display: flex;
+    justify-content: center;
+}
+.burger{
+    display: none;
+}
+.menuburger{
+    display: none;
+    position: absolute;
+    left: 5%;
+    padding: 2%;
+    background-color:black;
+    border-radius: 25px;
+}
+
+
+@media(max-width:480px) {
+    .menu{
+        display: none;
+    }
+    .burger{
+        display: flex;
+    }
+    .burger:hover .menuburger{
+        display: flex;
+    }
+    .burger{
+        margin-right: 80%;
+    }
+    .accéder{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-left: 1%;
+        margin-bottom: 1%;
+        margin-right: 1%;
+    }
+    .flex{
+        display: none;
+    }
+    .planp{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        width: 100%;
+    }
+    .barre{
+        display: none;
+    }
+}
